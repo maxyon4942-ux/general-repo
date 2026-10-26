@@ -1,0 +1,26 @@
+Na ocenę: Wypożyczalnia gier - program proszę zrobić w C# w konsoli.
+
+Program ma umożliwiać:
+1. Wyświetlenie listy 5 gier i cen za jeden dzień wypożyczenia, jedna z  tych gier musi być za 10 zł/dzień.
+2. Wybranie gry.
+3. Podanie liczby dni wypożyczenia.
+4. Obliczenie  kosztu.
+5. Naliczanie rabatu 10%, jeśli gra jest wypożyczana na co najmniej 7 dni.
+6. Wypożyczenie kolejnej gry, gry wypożyczone mają znikać z listy dostępnych w menu i ma to być pamiętane dopóki program nie został zakończony.
+6. Sprawdzanie, czy użytkownik wpisuje poprawne dane.
+7. Zakończenie programu.
+
+Adnotacja 6 - jakie przypadki testowe mają być sprawdzone?
+1. Uruchom program i sprawdź, czy wyświetla się menu.
+2. Wybierz opcję wyświetlenia gier i sprawdź, czy pokazują się ich nazwy oraz ceny.
+3. Wypożycz grę za 10 zł dziennie na 3 dni. Sprawdź, czy koszt wynosi 30 zł.
+4. Wypożycz tę samą grę na 7 dni. Sprawdź, czy po rabacie koszt wynosi 63 zł.
+5. Wypożycz grę na 1 dzień i sprawdź, czy cena jest ok.
+6. Spróbuj wypożyczyć grę na 0 dni, powinno nie dać się tego zrobić.
+7. Wpisz ujemną liczbę dni i sprawdź, czy program wyświetla info o błędzie.
+8. Zamiast liczby dni wpisz tekst. Program powinien wyświetlić błąd.
+9. Wybierz grę, której nie ma na liście. Program powinien poinformować o błędzie.
+10. Wpisz nieistniejącą opcję menu i sprawdź czy wyświetla błąd.
+13. Wpisz bardzo dużą liczbę dni i sprawdź, czy program nadal działa poprawnie, powinien obsługiwać do 31.
+14. Wypożyczaj wszystkie gry po kolei, poprzednie przypadki powinny działać przy wszystkich wyypożyczeniach i gry powinny być usuwane z listy.
+14. Wybierz opcję zakończenia programu i sprawdź, czy aplikacja zamyka się.
